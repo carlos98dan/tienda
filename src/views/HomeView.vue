@@ -10,7 +10,7 @@ const handleNewSale = () => {
 
 <template>
   <h3>
-    <button class="btn btn-success btn-sm" @click="handleNewSale">
+    <button class="btn btn-primary btn-sm" @click="handleNewSale">
       <i class="bi bi-plus"></i> Nueva Venta
     </button>
   </h3>
