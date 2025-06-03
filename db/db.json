@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "id": "3b57",
+      "name": "eraser",
+      "price": 200
+    },
+    {
+      "id": "29cf",
+      "name": "pen",
+      "price": 2000
+    },
+    {
+      "id": "13c8",
+      "name": "pencil",
+      "price": 2100
+    },
+    {
+      "id": "b9f9",
+      "name": "book",
+      "price": 500
+    }
+  ],
+  "clients": [
+    {
+      "id": "2c66",
+      "doc": "123456789",
+      "fname": "Daniel",
+      "lname": "Angel"
+    },
+    {
+      "id": "f787",
+      "doc": "987654321",
+      "fname": "Carolina",
+      "lname": "Florez"
+    },
+    {
+      "id": "b411",
+      "doc": "159374862",
+      "fname": "Eliana",
+      "lname": "Gomez"
+    },
+    {
+      "id": "f1f0",
+      "doc": "842615973",
+      "fname": "Geraldine",
+      "lname": "Zapata"
+    }
+  ],
+  "sales": [
+    {
+      "id": "s1",
+      "clientId": "f787",
+      "date": "2025-06-02",
+      "total": 4100
+    },
+    {
+      "id": "s2",
+      "clientId": "2c66",
+      "date": "2025-06-03",
+      "total": 500
+    },
+    {
+      "id": "s3",
+      "clientId": "f787",
+      "date": "2025-06-03",
+      "total": 700
+    }
+  ],
+  "saleDetails": [
+    {
+      "id": "d1",
+      "saleId": "s1",
+      "productId": "29cf",
+      "quantity": 1,
+      "price": 2000
+    },
+    {
+      "id": "d2",
+      "saleId": "s1",
+      "productId": "13c8",
+      "quantity": 1,
+      "price": 2100
+    },
+    {
+      "id": "d3",
+      "saleId": "s2",
+      "productId": "b9f9",
+      "quantity": 1,
+      "price": 500
+    },
+    {
+      "id": "d4",
+      "saleId": "s3",
+      "productId": "3b57",
+      "quantity": 1,
+      "price": 200
+    },
+    {
+      "id": "d5",
+      "saleId": "s3",
+      "productId": "b9f9",
+      "quantity": 1,
+      "price": 500
+    }
+  ]
+}
